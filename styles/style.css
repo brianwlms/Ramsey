@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-size: 16px;
+	color: #444444;
+	line-height: 150%;
+	margin: 0;
+	padding: 0;
+	font-family: 'proxima nova', helvetica, arial, sans-serif;
+}
+img {
+	padding: 5px;
+}
+p {
+	margin: 0;
+}
+h1 {
+	font-size: 300%;
+	line-height: 100%;
+	margin-bottom: 1%;
+}
+h2 {
+	font-size: 250%;
+	line-height: 110%;
+	margin: 0;
+	color: #9bca52;
+	font-family: lexia;
+}
+h3 {
+	font-size: 125%;
+	line-height: 125%;
+	margin-bottom: 0.5%;
+	color: #9bcb52;
+}
+h4 {
+	font-size: 100%;
+	line-height: 100%;
+	margin-bottom: 2%;
+	font-weight: bold;
+	border-bottom: 1px solid #eeeeee;
+	padding: 0 0 5px 0;
+}
+h5 {
+	font-size: 80%;
+	line-height: 100%;
+	margin-bottom: 10px;
+	color: #039bb4;
+	text-transform: uppercase;
+	font-family: 'proxima nova', helvetica, arial, sans-serif;
+}
+section {
+	padding: 10px 0;
+	margin: 0 0 20px 0;
+	float: left;
+	width: 100%;
+}
+.content {
+	max-width: 700px;
+	padding: 30px;
+	margin: 0 auto;
+}
+.aspect {
+	padding: 10px 10px 25px;
+	float: left;
+	width: 100%;
+	border-bottom: 1px dotted #dddddd;
+}
+.header-text {
+	max-width: 700px;
+	padding: 100px 30px;
+	margin: 0 auto;
+}
+.header-desc {
+	width: 50%;
+	border-top: 1px solid rgba(255, 255, 255, .4);
+	padding: 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.header-img {
+	background: url("../img/background-initial.jpg");
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+}
+.left-col {
+	width: 44%;
+	margin: 0;
+	float: left;
+	padding: 10px;
+}
+.right-col {
+	width: 44%;
+	margin: 0;
+	float: right;
+	padding: 10px;
+}
+.white {
+	background: #9bcb52;
+}
+.chart {
+	width: 100%
+}
+.chart ul {
+	margin: 10px 0;
+	list-style: none;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+.chart ul li {
+	width: 7.3%;
+	display: inline;
+	float: left;
+	background: url("../img/chart-bg.png");
+	background-size: 1px;
+	height: 2px;
+	margin-top: 11px;
+}
+.chart ul li:first-child {
+	width: 10%;
+	text-align: right;
+	background: none;
+	height: 25px;
+	margin-top: 0;
+	margin-right: 10px;
+}
+.chart ul li:last-child {
+	width: 10%;
+	text-align: left;
+	background: none;
+	height: 25px;
+	margin-top: 0;
+	margin-left: 10px;
+}
+.chart ul li span {
+	background: #aaaaaa;
+	float: left;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	margin-top: -12px;
+	border: 3px solid #ffffff;
+}
+.quote {
+	margin: 10px 0 30px 50px;
+	font-style: italic;
+	font-size: 90%;
+}
+.primary-colors {
+	width: 100%
+}
+.primary-colors ul {
+	margin: 10px 0;
+	list-style: none;
+	padding: 0;
+	float: left;
+	width: 100%;
+}
+.primary-colors ul li {
+	width: 30%;
+	display: inline;
+	float: left;
+}
+.primary-colors ul li span {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.green {
+	background: #9bcb52;
+}
+.blue {
+	background: #039bb4;
+}
+.orange {
+	background: #f28220;
+}
+.lexia h2 {
+	font-family: 'lexia';
+	color: #444444;
+	font-size: 200%;
+}
+.proxima h2 {
+	font-family: 'proxima nova';
+	color: #444444;
+	font-size: 200%;
+}
+.photography {
+	width: 47%;
+}
