@@ -148,6 +148,13 @@ section {
 	background-size: cover;
 	padding-top: 60px;
 }
+.index-header {
+	background: url("../img/prism.png");
+	height: 300px;
+	width: 100%;
+	background-size: cover;
+	padding-top: 60px;
+}
 .left-col {
 	width: 44%;
 	margin: 0;
