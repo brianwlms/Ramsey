@@ -75,7 +75,8 @@ section {
 	margin-right: 60px;
 	}
 .nav li {
-	width: 120px;
+	width: 90px;
+	margin: 0 9px 0 0;
 	font-family: 'proxima nova', sans-serif;
   	font-size: .8em;
 	font-weight: 600;
@@ -89,8 +90,34 @@ section {
 	}
 .nav a:hover {
 	border-bottom: solid 2px #004278;
-	transition: .3s;
+	transition: .4s;
 	}
+.nav li li {
+  font-size: .8em;
+}
+/*
+  .nav a {
+    border-bottom: none;
+  }
+  .nav > ul > li {
+    text-align: center;
+  }
+  .nav > ul > li > a {
+    padding-left: 0;
+  }
+ 
+  .nav li ul {
+    position: absolute;
+    display: none;
+    width: 300px;
+  }
+  .nav li:hover ul {
+    display: block;
+  }
+  .nav li ul li {
+    display: block;
+  }	
+ */
 .content {
 	max-width: 700px;
 	padding: 30px;
@@ -230,4 +257,44 @@ section {
 }
 .photography {
 	width: 47%;
+}
+.Grid {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em 0 1em -1em;
+}
+.Color {
+  font-size: 0.875em;
+  font-weight: normal;
+  line-height: 1.42857em;
+  width: calc(25% - 1em);
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid #d7d9e0;
+  border-radius: 15px;
+  background: white;
+  text-align: center;
+}
+.Grid li:first-child {
+	margin-left: 60px;
+}
+.Color-block {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 0.625em;
+  border-radius: 10px;
+}
+.Color-block--green {
+  background-color: #9bcb52;
+}
+.Color-block--blue {
+  background-color: #039bb4;
+}
+.Color-block--orange {
+  background-color: #f28220;
 }
